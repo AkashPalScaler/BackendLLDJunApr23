@@ -21,8 +21,8 @@ public class Client {
 
         Dog d = new BullDog();
 
-        d.doSomething(); //In case of non static overriding, something of bulldog would get printed
-        //But here something in Dog will get printed(Because static methods are tied to class)
+        d.doSomething(); //In case of non static overriding, "something of bulldog" would get printed
+        //But here "something in Dog" will get printed(Because static methods are tied to class)
 
 
         d.print();

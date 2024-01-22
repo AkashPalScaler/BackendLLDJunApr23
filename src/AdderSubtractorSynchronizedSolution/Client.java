@@ -1,7 +1,9 @@
-package AdderSubtractor;
+package AdderSubtractorSynchronizedSolution;
 
+import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
-import java.util.concurrent.*;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 
 public class Client {
     public static void main(String[] args) throws ExecutionException, InterruptedException{
@@ -20,7 +22,7 @@ public class Client {
         subFuture.get();
 
 
-        System.out.println("Value of val : "+ value.val);
+        System.out.println("Value of val : "+ value.getVal());
     }
 }
 

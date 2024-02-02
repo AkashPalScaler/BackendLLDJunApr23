@@ -1,14 +1,20 @@
-public class Student {
+import java.util.Comparator;
+
+public class Student implements Comparable<Student> {
     int age;
-    static int count;
+    String name;
+    int salary;
+    int psp;
 
-    //non static - after object creation
-    public void print(){
-        System.out.println(count);
+    public Student(int age, String name, int salary, int psp){
+        this.age = age;
+        this.name= name;
+        this.salary = salary;
+        this.psp = psp;
     }
 
-    static void printSomething(){
-        System.out.println(count);
+    @Override
+    public int compareTo(Student o) {
+        return this.psp - o.psp;
     }
-
 }

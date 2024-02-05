@@ -1,4 +1,7 @@
 import java.util.*;
+import java.util.concurrent.Callable;
+import java.util.function.Function;
+
 class AgeComparator implements Comparator<Student>{
 
     @Override
@@ -76,6 +79,9 @@ public class Main {
 //        Collections.sort(studAr, new AgeComparator());
 //        Collections.sort(studAr, new SalaryComparator());
          Collections.sort(studAr);
+         Collections.sort(studAr, (o1,o2) -> {
+             return o1.age - o2.age;
+         });
 
 //         Collections.sort(studAr, new Comparator<Student>() {
 //             @Override

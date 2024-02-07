@@ -8,7 +8,7 @@ import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
 public class Client {
-    public static boolean checkEven(Integer x){
+    public static boolean checkEven(Integer x)throws Error{
         return x%2 == 0;
     }
     public static void main(String[] args) {

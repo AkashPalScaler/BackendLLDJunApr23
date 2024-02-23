@@ -38,8 +38,9 @@ public class Client {
         sandeep.setName("Sandeep");
         sandeep.setIq(130);
 
-        Student srikanth = studentRegistry
+        Student srikanth =  studentRegistry
                 .get("AprilIntelligent").clone();
+
 
         System.out.println("hello");
 

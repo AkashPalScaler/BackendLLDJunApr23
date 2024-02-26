@@ -1,5 +1,7 @@
 package DesignPatterns.BuilderPattern;
 
+import javax.xml.validation.Validator;
+
 public class Student {
     String name;
     int age;
@@ -26,6 +28,7 @@ public class Student {
         if(studB.phnNo ==123456789){
             throw new Exception("Invalid");
         }
+
 
         this.name = studB.name;
         this.age = studB.age;

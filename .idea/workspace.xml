@@ -2,23 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be23e7e9-fb51-4c34-9592-2b4e3ae23287" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Adapter/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Adapter/BalanceRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Adapter/BalanceResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Adapter/BankAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Adapter/HDFCBankAdapter/HDFCBankAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Adapter/Library/HDFCBalanceRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Adapter/Library/HDFCBalanceResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Adapter/Library/HDFCBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Adapter/Library/YesBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Adapter/Library/YesBankBalanceRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Adapter/Library/YesBankBalanceResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Adapter/PhonePe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Adapter/YesBankAdapter/YesBankAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Decorator/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Decorator/Burger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Decorator/CheeseDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Decorator/MenuItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Decorator/PaneerDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Decorator/Pizza.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/Flutter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/Flutter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/Balance.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/BankApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/PhonePe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/PhonePe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/Transaction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/YesBankAdapter/BalanceResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/YesBankAdapter/YesBankApi.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/BuilderPattern/Student$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/BuilderPattern/Student$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/BuilderPattern/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/BuilderPattern/Student.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,135 +32,78 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Adapter/PhonePe.java">
+        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Decorator/MenuItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="12" column="31" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="31" />
+            <state relative-caret-position="76">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Decorator/Burger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
               <folding>
-                <element signature="e#117#118#0" expanded="true" />
-                <element signature="e#149#150#0" expanded="true" />
+                <element signature="e#124#125#0" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Adapter/HDFCBankAdapter/HDFCBankAdapter.java">
+        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Decorator/PaneerDecorator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="16" column="34" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="34" />
+            <state relative-caret-position="266">
+              <caret line="14" column="47" selection-start-line="12" selection-start-column="12" selection-end-line="14" selection-end-column="47" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Adapter/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="8" column="57" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/PrototypeAndRegistry/Prototype.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/PrototypeAndRegistry/IntelligentStudent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="17" column="35" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="35" />
-              <folding>
-                <element signature="e#472#473#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#679#680#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#737#738#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Singleton/DatabaseConnection3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/Builder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-346">
-              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/Student.java">
+        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Decorator/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+            <state relative-caret-position="103">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/PrototypeAndRegistry/Student.java">
+        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Decorator/Pizza.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="133">
+              <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="50" />
               <folding>
-                <element signature="e#578#579#0" expanded="true" />
-                <element signature="e#618#619#0" expanded="true" />
-                <element signature="e#666#667#0" expanded="true" />
-                <element signature="e#693#694#0" expanded="true" />
-                <element signature="e#733#734#0" expanded="true" />
-                <element signature="e#765#766#0" expanded="true" />
-                <element signature="e#795#796#0" expanded="true" />
-                <element signature="e#821#822#0" expanded="true" />
-                <element signature="e#859#860#0" expanded="true" />
-                <element signature="e#889#890#0" expanded="true" />
-                <element signature="e#916#917#0" expanded="true" />
-                <element signature="e#942#943#0" expanded="true" />
-                <element signature="e#977#978#0" expanded="true" />
-                <element signature="e#1007#1008#0" expanded="true" />
-                <element signature="e#1042#1043#0" expanded="true" />
-                <element signature="e#1076#1077#0" expanded="true" />
-                <element signature="e#1127#1128#0" expanded="true" />
-                <element signature="e#1173#1174#0" expanded="true" />
-                <element signature="e#1209#1210#0" expanded="true" />
-                <element signature="e#1241#1242#0" expanded="true" />
-                <element signature="e#1291#1292#0" expanded="true" />
-                <element signature="e#1333#1334#0" expanded="true" />
+                <element signature="e#123#124#0" expanded="true" />
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Adapter/YesBankAdapter/YesBankAdapter.java">
+        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Decorator/CheeseDecorator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="36" column="44" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="36" selection-end-column="44" />
+            <state relative-caret-position="151">
+              <caret line="8" column="20" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="20" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -173,8 +115,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Gradle Kotlin DSL Build Script" />
-        <option value="Interface" />
         <option value="Python Script" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -194,14 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DesignPatterns/Singleton/Client.java" />
-        <option value="$PROJECT_DIR$/src/DesignPatterns/Singleton/DatabaseConnection2.java" />
-        <option value="$PROJECT_DIR$/src/DesignPatterns/Singleton/Singleton/DatabaseConnection2.java" />
-        <option value="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/Client.java" />
-        <option value="$PROJECT_DIR$/src/Student.java" />
-        <option value="$PROJECT_DIR$/src/DesignPatterns/PrototypeAndRegistry/Registry.java" />
-        <option value="$PROJECT_DIR$/src/DesignPatterns/PrototypeAndRegistry/Prototype.java" />
-        <option value="$PROJECT_DIR$/src/DesignPatterns/PrototypeAndRegistry/StudentRegistry.java" />
         <option value="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/Menu.java" />
         <option value="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/Android/AndroidMenu.java" />
         <option value="$PROJECT_DIR$/src/DesignPatterns/PrototypeAndRegistry/Client.java" />
@@ -245,13 +179,21 @@
         <option value="$PROJECT_DIR$/src/DesignPatterns/Singleton/DatabaseConnection3.java" />
         <option value="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/Builder.java" />
         <option value="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/Student.java" />
+        <option value="$PROJECT_DIR$/src/DesignPatterns/Decorator/LettuceDecorator.java" />
+        <option value="$PROJECT_DIR$/src/DesignPatterns/Decorator/MenuItem.java" />
+        <option value="$PROJECT_DIR$/src/DesignPatterns/Decorator/Burger.java" />
+        <option value="$PROJECT_DIR$/src/DesignPatterns/Decorator/Pizza.java" />
+        <option value="$PROJECT_DIR$/src/DesignPatterns/Decorator/Cheese.java" />
+        <option value="$PROJECT_DIR$/src/DesignPatterns/Decorator/PaneerDecorator.java" />
+        <option value="$PROJECT_DIR$/src/DesignPatterns/Decorator/CheeseDecorator.java" />
+        <option value="$PROJECT_DIR$/src/DesignPatterns/Decorator/App.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="886" />
-    <option name="height" value="733" />
+    <option name="width" value="884" />
+    <option name="height" value="734" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -284,7 +226,7 @@
               <item name="scalerBackendLLDAprJun23" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="BuilderPattern" type="462c0819:PsiDirectoryNode" />
+              <item name="Decorator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scalerBackendLLDAprJun23" type="b2602c69:ProjectViewProjectNode" />
@@ -360,6 +302,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Decorator.App" />
+      <module name="scalerBackendLLDAprJun23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesignPatterns.Decorator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignPatterns.PrototypeAndRegistry.Client" />
       <module name="scalerBackendLLDAprJun23" />
@@ -386,33 +341,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Singleton.Singleton.Client" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="scalerBackendLLDAprJun23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DesignPatterns.Singleton.Singleton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client" />
       <item itemvalue="Application.Client (2)" />
       <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.App" />
       <item itemvalue="Application.App (1)" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.App (1)" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.Client (1)" />
-        <item itemvalue="Application.Client (2)" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -430,10 +379,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="886" height="733" extended-state="0" />
+    <frame x="0" y="23" width="884" height="734" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24644549" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24703088" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -442,16 +391,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917318" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39937598" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25077882" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5351014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Sequence Diagram" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.31357256" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.31308413" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32605305" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32554516" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -462,7 +411,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2004745" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24703088" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -471,16 +420,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917318" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39937598" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25077882" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5351014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Sequence Diagram" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.31357256" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.31308413" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32605305" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32554516" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -604,77 +553,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/Android/AndroidButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/Android/AndroidMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/PrototypeAndRegistry/StudentRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="4" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/PrototypeAndRegistry/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/Button.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/Dropdown.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/Android/AndroidButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#183#184#0" expanded="true" />
-            <element signature="e#219#220#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/Android/AndroidDropdown.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-          <folding>
-            <element signature="e#189#190#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/IOS/IOSDropdown.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1061,6 +939,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Decorator/CheeseDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+            <element signature="e#359#360#0" expanded="true" />
+            <element signature="e#403#404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Decorator/LettuceDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="e#153#154#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#420#421#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1043">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-845">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/Builder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345">
+          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Singleton/DatabaseConnection3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/DesignPatterns/PrototypeAndRegistry/IntelligentStudent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -1076,24 +1008,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Singleton/DatabaseConnection3.java">
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Decorator/MenuItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        <state relative-caret-position="76">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/Builder.java">
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Decorator/Pizza.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-346">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+        <state relative-caret-position="133">
+          <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="50" />
+          <folding>
+            <element signature="e#123#124#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Decorator/PaneerDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="266">
+          <caret line="14" column="47" selection-start-line="12" selection-start-column="12" selection-end-line="14" selection-end-column="47" />
+          <folding>
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Decorator/Burger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Decorator/CheeseDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Decorator/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>

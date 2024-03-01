@@ -2,22 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be23e7e9-fb51-4c34-9592-2b4e3ae23287" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Decorator/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Decorator/Burger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Decorator/CheeseDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Decorator/MenuItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Decorator/PaneerDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Decorator/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Observer/Amazon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Observer/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Observer/OnOrderPlaceSubscribers/InventoryUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Observer/OnOrderPlaceSubscribers/InvoiceGeneration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Observer/OnOrderPlaceSubscribers/SendNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Observer/OrderPlacedSubscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Strategy/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Strategy/BikePathCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Strategy/CarPathCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Strategy/GoogleMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Strategy/GoogleMap2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Strategy/IPathCalculatorStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Strategy/PathCalculatorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesignPatterns/Strategy/WalkPathCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/Balance.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/BankApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/PhonePe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/PhonePe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/Transaction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/YesBankAdapter/BalanceResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/YesBankAdapter/YesBankApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/BuilderPattern/Student$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/BuilderPattern/Student$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/BuilderPattern/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/BuilderPattern/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Decorator/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Decorator/App.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,78 +32,122 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Decorator/MenuItem.java">
+        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Strategy/GoogleMap2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+            <state relative-caret-position="95">
+              <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Decorator/Burger.java">
+        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Strategy/PathCalculatorFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="9" selection-end-column="5" />
-              <folding>
-                <element signature="e#124#125#0" expanded="true" />
-                <element signature="e#160#161#0" expanded="true" />
-                <element signature="e#268#269#0" expanded="true" />
-                <element signature="e#294#295#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Decorator/PaneerDecorator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="47" selection-start-line="12" selection-start-column="12" selection-end-line="14" selection-end-column="47" />
-              <folding>
-                <element signature="e#159#160#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="190">
+              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Decorator/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="8" column="22" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Decorator/Pizza.java">
+        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Observer/Amazon.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="50" />
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
               <folding>
-                <element signature="e#123#124#0" expanded="true" />
-                <element signature="e#159#160#0" expanded="true" />
-                <element signature="e#184#185#0" expanded="true" />
-                <element signature="e#211#212#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#205#206#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#214#215#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Decorator/CheeseDecorator.java">
+        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Observer/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="124">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
               <folding>
-                <element signature="e#159#160#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
-                <element signature="e#411#412#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Observer/OnOrderPlaceSubscribers/InventoryUpdate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding>
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Observer/OnOrderPlaceSubscribers/SendNotification.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+              <folding>
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Observer/OnOrderPlaceSubscribers/InvoiceGeneration.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+              <folding>
+                <element signature="e#225#226#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Observer/OrderPlacedSubscriber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Strategy/CarPathCalculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="30" />
+              <folding>
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Strategy/WalkPathCalculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+              <folding>
+                <element signature="e#182#183#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -129,6 +173,12 @@
       <find>hashCode</find>
       <find>synchroni</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/src/DesignPatterns</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -136,20 +186,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/Menu.java" />
-        <option value="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/Android/AndroidMenu.java" />
-        <option value="$PROJECT_DIR$/src/DesignPatterns/PrototypeAndRegistry/Client.java" />
-        <option value="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/Button.java" />
-        <option value="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/Dropdown.java" />
-        <option value="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/UIFactory.java" />
-        <option value="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/Android/Android.java" />
-        <option value="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/Android/AndroidButton.java" />
-        <option value="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/Android/AndroidDropdown.java" />
-        <option value="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/Android/AndroidUIFactory.java" />
-        <option value="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/IOS/IOSUIFactory.java" />
-        <option value="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/IOS/IOSButton.java" />
-        <option value="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/IOS/IOSDropdown.java" />
-        <option value="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/Flutter.java" />
         <option value="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/UIFactoryFactory.java" />
         <option value="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/FlutterInterface.java" />
         <option value="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/FlutterIOS.java" />
@@ -187,13 +223,27 @@
         <option value="$PROJECT_DIR$/src/DesignPatterns/Decorator/PaneerDecorator.java" />
         <option value="$PROJECT_DIR$/src/DesignPatterns/Decorator/CheeseDecorator.java" />
         <option value="$PROJECT_DIR$/src/DesignPatterns/Decorator/App.java" />
+        <option value="$PROJECT_DIR$/src/DesignPatterns/Strategy/IPathCalculatorStrategy.java" />
+        <option value="$PROJECT_DIR$/src/DesignPatterns/Strategy/CarPathCalculator.java" />
+        <option value="$PROJECT_DIR$/src/DesignPatterns/Strategy/BikePathCalculator.java" />
+        <option value="$PROJECT_DIR$/src/DesignPatterns/Strategy/WalkPathCalculator.java" />
+        <option value="$PROJECT_DIR$/src/DesignPatterns/Strategy/GoogleMap.java" />
+        <option value="$PROJECT_DIR$/src/DesignPatterns/Strategy/App.java" />
+        <option value="$PROJECT_DIR$/src/DesignPatterns/Strategy/GoogleMap2.java" />
+        <option value="$PROJECT_DIR$/src/DesignPatterns/Strategy/PathCalculatorFactory.java" />
+        <option value="$PROJECT_DIR$/src/DesignPatterns/Observer/OrderPlacedSubscriber.java" />
+        <option value="$PROJECT_DIR$/src/DesignPatterns/Observer/OnOrderPlaceSubscribers/InventoryUpdate.java" />
+        <option value="$PROJECT_DIR$/src/DesignPatterns/Observer/OnOrderPlaceSubscribers/InvoiceGeneration.java" />
+        <option value="$PROJECT_DIR$/src/DesignPatterns/Observer/OnOrderPlaceSubscribers/SendNotification.java" />
+        <option value="$PROJECT_DIR$/src/DesignPatterns/Observer/App.java" />
+        <option value="$PROJECT_DIR$/src/DesignPatterns/Observer/Amazon.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="884" />
-    <option name="height" value="734" />
+    <option name="height" value="733" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -226,7 +276,7 @@
               <item name="scalerBackendLLDAprJun23" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="Decorator" type="462c0819:PsiDirectoryNode" />
+              <item name="Observer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scalerBackendLLDAprJun23" type="b2602c69:ProjectViewProjectNode" />
@@ -252,15 +302,16 @@
       <recent name="$PROJECT_DIR$/src/AdderSubtractorSolution" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="DesignPatterns.Strategy" />
       <recent name="DesignPatterns.Singleton" />
       <recent name="AccessModifiers" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="DesignPatterns.Observer" />
       <recent name="DesignPatterns.Adapter.Library" />
       <recent name="DesignPatterns.Adapter" />
       <recent name="DesignPatterns.AbstractFactory.IOS" />
       <recent name="DesignPatterns.AbstractFactory.Android" />
-      <recent name="lambdas" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -275,7 +326,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.App (1)">
+  <component name="RunManager" selected="Application.App (2)">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Strategy.App" />
+      <module name="scalerBackendLLDAprJun23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesignPatterns.Strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Observer.App" />
+      <module name="scalerBackendLLDAprJun23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesignPatterns.Observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignPatterns.AbstractFactory.App" />
       <module name="scalerBackendLLDAprJun23" />
@@ -328,19 +405,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.BuilderPattern.Client" />
-      <module name="scalerBackendLLDAprJun23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DesignPatterns.BuilderPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="scalerBackendLLDAprJun23" />
@@ -349,19 +413,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client (2)" />
       <item itemvalue="Application.Client (1)" />
       <item itemvalue="Application.App" />
       <item itemvalue="Application.App (1)" />
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.App (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App (2)" />
+        <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.App (1)" />
-        <item itemvalue="Application.App" />
-        <item itemvalue="Application.Client (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -379,10 +443,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="884" height="734" extended-state="0" />
+    <frame x="0" y="23" width="884" height="733" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24703088" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30403802" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -391,16 +455,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917318" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25077882" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39625585" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5351014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Sequence Diagram" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.31308413" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.31357256" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32554516" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.324493" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -411,7 +475,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24703088" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24703088" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -420,14 +484,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32917318" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25077882" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24960998" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5351014" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Sequence Diagram" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.31308413" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.31357256" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32554516" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -553,142 +617,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/IOS/IOSDropdown.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
-          <folding>
-            <element signature="e#181#182#0" expanded="true" />
-            <element signature="e#217#218#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/IOS/IOSButton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="e#175#176#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/Android/AndroidUIFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/IOS/IOSUIFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/UIFactoryFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="13" selection-start-line="13" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/FlutterInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/UIFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/FlutterIOS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="33" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding>
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/FlutterAndroid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="35" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="35" />
-          <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/Flutter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#90#91#0" expanded="true" />
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#179#180#0" expanded="true" />
-            <element signature="e#215#216#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Adapter/YesBankAdapter/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Adapter/Balance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Adapter/BankApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Adapter/Transaction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -1071,6 +999,140 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
           <caret line="8" column="22" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Strategy/IPathCalculatorStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Strategy/BikePathCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+          <folding>
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Strategy/GoogleMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="66" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Strategy/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Strategy/WalkPathCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+          <folding>
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Strategy/GoogleMap2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Strategy/CarPathCalculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="30" />
+          <folding>
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Strategy/PathCalculatorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Observer/OrderPlacedSubscriber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Observer/OnOrderPlaceSubscribers/InventoryUpdate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Observer/OnOrderPlaceSubscribers/InvoiceGeneration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="50" selection-start-line="8" selection-start-column="50" selection-end-line="8" selection-end-column="50" />
+          <folding>
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Observer/OnOrderPlaceSubscribers/SendNotification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
+          <folding>
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Observer/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Observer/Amazon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

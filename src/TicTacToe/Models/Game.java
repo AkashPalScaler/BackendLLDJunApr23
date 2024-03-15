@@ -1,5 +1,9 @@
 package TicTacToe.Models;
+import TicTacToe.Exceptions.BotCountExceedsLimitException;
+import TicTacToe.Exceptions.DuplicateSymbolException;
+import TicTacToe.Exceptions.PlayersCountDimensionMismatchException;
 import TicTacToe.Strategies.WinningStrategy;
+import TicTacToe.Validations.GameValidations;
 
 import java.util.*;
 
@@ -21,6 +25,11 @@ public class Game {
         this.nextPlayerIndex = 0;
         this.moves = new ArrayList<>();
     }
+
+    public void printBoard(){
+        board.display();
+    }
+
 
     public static Builder getBuilder(){
         return new Builder();
@@ -47,8 +56,11 @@ public class Game {
             return this;
         }
 
-        public Game build(){
+        public Game build() throws BotCountExceedsLimitException, DuplicateSymbolException, PlayersCountDimensionMismatchException {
             //validations
+            GameValidations.validatePlayerCountAndBoardDimension(this.players, dimension);
+            GameValidations.validateUniqueSymbolsForPlayers(this.players);
+            GameValidations.validateBotCount(this.players, 1);
             return new Game(this.dimension, this.players, this.winningStrategyList);
         }
     }

@@ -1,5 +1,6 @@
 package TicTacToe.Models;
 
+import TicTacToe.Factories.BotPlayingStrategyFactory;
 import TicTacToe.Strategies.BotPlayingStrategy;
 
 public class BotPlayer extends Player{

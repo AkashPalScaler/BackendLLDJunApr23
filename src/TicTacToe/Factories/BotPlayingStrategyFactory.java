@@ -1,5 +1,6 @@
-package TicTacToe.Models;
+package TicTacToe.Factories;
 
+import TicTacToe.Models.BotDifficultyLevel;
 import TicTacToe.Strategies.BotPlayingStrategy;
 import TicTacToe.Strategies.EasyPlayingStrategy;
 

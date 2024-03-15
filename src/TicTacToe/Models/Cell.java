@@ -12,5 +12,13 @@ public class Cell {
         this.cellState = CellState.EMPTY;
     }
 
+    public void display(){
+        if(cellState.equals(CellState.EMPTY)){
+            System.out.print("|_|");
+        }else{
+            System.out.print("|" + player.getSymbol() + "|");
+        }
+    }
+
 
 }

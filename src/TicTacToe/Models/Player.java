@@ -14,4 +14,20 @@ public abstract class Player {
         this.symbol = symbol;
         this.playerType = playerType;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public Integer getGamerID() {
+        return gamerID;
+    }
+
+    public Character getSymbol() {
+        return symbol;
+    }
+
+    public PlayerType getPlayerType() {
+        return playerType;
+    }
 }

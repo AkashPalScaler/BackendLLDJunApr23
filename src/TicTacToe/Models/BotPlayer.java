@@ -9,10 +9,7 @@ public class BotPlayer extends Player{
 
     @Override
     public Cell makeMove(Board board) {
-        //identify i,j or which cell to mark
-        //update cell with player information & cellState
-        //return cell
-       return null;
+        return botPlayingStrategy.makeMove(board, this);
     }
 
     public BotPlayer(String name, Integer gamerID, Character symbol, PlayerType playerType, BotDifficultyLevel botDifficultyLevel) {

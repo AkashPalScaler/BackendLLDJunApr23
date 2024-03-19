@@ -20,5 +20,27 @@ public class Cell {
         }
     }
 
+    public Integer getRow() {
+        return row;
+    }
 
+    public Integer getCol() {
+        return col;
+    }
+
+    public CellState getCellState() {
+        return cellState;
+    }
+
+    public Player getPlayer() {
+        return player;
+    }
+
+    public void setCellState(CellState cellState) {
+        this.cellState = cellState;
+    }
+
+    public void setPlayer(Player player) {
+        this.player = player;
+    }
 }

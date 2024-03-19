@@ -30,6 +30,40 @@ public class Game {
         board.display();
     }
 
+    public void makeMove(){
+        Player player = players.get(nextPlayerIndex);
+        Cell cell = player.makeMove(this.board);
+
+        Move move = new Move(player, cell);
+        this.moves.add(move);
+
+        if(checkWinner(this.board, move)){
+            this.gameState = GameState.CONCLUDED;
+            this.winner = player;
+            return;
+        }
+
+        if(this.moves.size() == this.board.getDimension()* this.board.getDimension()){
+            this.gameState = GameState.DRAW;
+            return;
+        }
+
+
+
+        nextPlayerIndex++;
+        nextPlayerIndex %= players.size();
+    }
+
+    private boolean checkWinner(Board board, Move move){
+        for(WinningStrategy ws: this.winningStrategyList){
+            if(ws.checkWin(board, move)){
+                return true;
+            }
+        }
+
+        return false;
+    }
+
 
     public static Builder getBuilder(){
         return new Builder();

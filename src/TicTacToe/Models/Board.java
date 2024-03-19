@@ -29,4 +29,12 @@ public class Board {
             System.out.println();
         }
     }
+
+    public Integer getDimension() {
+        return dimension;
+    }
+
+    public List<List<Cell>> getBoard() {
+        return board;
+    }
 }

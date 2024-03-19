@@ -9,6 +9,7 @@ public class BotPlayer extends Player{
 
     @Override
     public Cell makeMove(Board board) {
+        System.out.println("Bot player is making a move.");
         return botPlayingStrategy.makeMove(board, this);
     }
 

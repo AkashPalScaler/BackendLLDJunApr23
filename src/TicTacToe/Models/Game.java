@@ -64,6 +64,17 @@ public class Game {
         return false;
     }
 
+    public List<Move> getMoves() {
+        return moves;
+    }
+
+    public GameState getGameState() {
+        return gameState;
+    }
+
+    public Player getWinner() {
+        return winner;
+    }
 
     public static Builder getBuilder(){
         return new Builder();

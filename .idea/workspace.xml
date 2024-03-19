@@ -2,14 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be23e7e9-fb51-4c34-9592-2b4e3ae23287" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Controllers/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Controllers/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Models/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Models/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TicTacToe/Validations/CellValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Controllers/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Controllers/GameController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/BotPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/BotPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Cell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Cell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Game$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Game$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/HumanPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/HumanPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Strategies/BotPlayingStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Strategies/BotPlayingStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Strategies/EasyPlayingStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Strategies/EasyPlayingStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TicTacToe/Models/BotPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Models/BotPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Models/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Models/Cell.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TicTacToe/Models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Models/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TicTacToe/Models/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Models/HumanPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Strategies/BotPlayingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Strategies/BotPlayingStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Strategies/EasyPlayingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Strategies/EasyPlayingStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Models/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Models/Move.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Strategies/RowWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Strategies/RowWinningStrategy.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,28 +34,38 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TicTacToe/Models/Game.java">
+        <entry file="file://$PROJECT_DIR$/src/TicTacToe/Models/HumanPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="53" column="40" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="53" selection-end-column="40" />
+            <state relative-caret-position="228">
+              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#977#978#0" expanded="true" />
-                <element signature="e#1005#1006#0" expanded="true" />
-                <element signature="class#Builder#0;class#Game#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TicTacToe/Models/HumanPlayer.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TicTacToe/Models/Move.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            <state relative-caret-position="209">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
               <folding>
-                <element signature="e#121#122#0" expanded="true" />
-                <element signature="e#148#149#0" expanded="true" />
+                <element signature="e#264#265#0" expanded="true" />
+                <element signature="e#293#294#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TicTacToe/Validations/CellValidation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,49 +75,7 @@
         <entry file="file://$PROJECT_DIR$/src/TicTacToe/Models/BotPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="11" column="35" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="35" />
-              <folding>
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#374#375#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TicTacToe/Models/Board.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#790#791#0" expanded="true" />
-                <element signature="e#822#823#0" expanded="true" />
-                <element signature="e#892#893#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TicTacToe/Models/Cell.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
-              <folding>
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#589#590#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
-                <element signature="e#686#687#0" expanded="true" />
-                <element signature="e#719#720#0" expanded="true" />
-                <element signature="e#748#749#0" expanded="true" />
-                <element signature="e#801#802#0" expanded="true" />
-                <element signature="e#843#844#0" expanded="true" />
-                <element signature="e#887#888#0" expanded="true" />
-                <element signature="e#923#924#0" expanded="true" />
-              </folding>
+              <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -105,24 +83,57 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TicTacToe/Controllers/GameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-28">
+            <state relative-caret-position="228">
               <caret line="12" column="25" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#912#913#0" expanded="true" />
-                <element signature="e#942#943#0" expanded="true" />
-                <element signature="e#959#960#0" expanded="true" />
-                <element signature="e#992#993#0" expanded="true" />
+                <element signature="e#943#944#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TicTacToe/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TicTacToe/Models/Move.java">
+        <entry file="file://$PROJECT_DIR$/src/TicTacToe/Strategies/RowWinningStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            <state relative-caret-position="36">
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TicTacToe/Models/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1254">
+              <caret line="66" column="34" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#974#975#0" expanded="true" />
+                <element signature="e#1005#1006#0" expanded="true" />
+                <element signature="e#1917#1918#0" expanded="true" />
+                <element signature="e#1956#1957#0" expanded="true" />
+                <element signature="e#1988#1989#0" expanded="true" />
+                <element signature="e#2021#2022#0" expanded="true" />
+                <element signature="e#2050#2051#0" expanded="true" />
+                <element signature="class#Builder#0;class#Game#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,29 +141,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TicTacToe/Strategies/EasyPlayingStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="342">
+              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TicTacToe/Models/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="8" column="19" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="19" />
-              <folding>
-                <element signature="e#479#480#0" expanded="true" />
-                <element signature="e#506#507#0" expanded="true" />
-                <element signature="e#541#542#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#607#608#0" expanded="true" />
-                <element signature="e#636#637#0" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#710#711#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,7 +154,7 @@
         <entry file="file://$PROJECT_DIR$/src/TicTacToe/Strategies/BotPlayingStrategy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -204,7 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DesignPatterns/Singleton/DatabaseConnection3.java" />
         <option value="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/Builder.java" />
         <option value="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/Student.java" />
         <option value="$PROJECT_DIR$/src/DesignPatterns/Decorator/LettuceDecorator.java" />
@@ -237,7 +228,6 @@
         <option value="$PROJECT_DIR$/src/TicTacToe/Models/BotDifficultyLevel.java" />
         <option value="$PROJECT_DIR$/src/TicTacToe/Models/GameState.java" />
         <option value="$PROJECT_DIR$/src/TicTacToe/Strategies/WinningStrategy.java" />
-        <option value="$PROJECT_DIR$/src/TicTacToe/Models/Move.java" />
         <option value="$PROJECT_DIR$/src/TicTacToe/Models/EasyPlayingStrategy.java" />
         <option value="$PROJECT_DIR$/src/TicTacToe/Models/BotPlayingStrategyFactory.java" />
         <option value="$PROJECT_DIR$/src/TicTacToe/Exceptions/PlayersCountDimensionMismatchException.java" />
@@ -245,20 +235,23 @@
         <option value="$PROJECT_DIR$/src/TicTacToe/Exceptions/DuplicateSymbolException.java" />
         <option value="$PROJECT_DIR$/src/TicTacToe/Exceptions/BotCountExceedsLimitException.java" />
         <option value="$PROJECT_DIR$/src/TicTacToe/Validations/GameValidations.java" />
-        <option value="$PROJECT_DIR$/src/TicTacToe/Strategies/RowWinningStrategy.java" />
-        <option value="$PROJECT_DIR$/src/TicTacToe/App.java" />
         <option value="$PROJECT_DIR$/src/TicTacToe/Controllers/GameController.java" />
-        <option value="$PROJECT_DIR$/src/TicTacToe/Models/Game.java" />
         <option value="$PROJECT_DIR$/src/TicTacToe/Models/Board.java" />
         <option value="$PROJECT_DIR$/src/TicTacToe/Models/Cell.java" />
-        <option value="$PROJECT_DIR$/src/TicTacToe/Models/BotPlayer.java" />
         <option value="$PROJECT_DIR$/src/TicTacToe/Strategies/BotPlayingStrategy.java" />
         <option value="$PROJECT_DIR$/src/TicTacToe/Strategies/EasyPlayingStrategy.java" />
         <option value="$PROJECT_DIR$/src/TicTacToe/Models/HumanPlayer.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Validations/CellValidation.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Models/Game.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Models/BotPlayer.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Models/Move.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/Strategies/RowWinningStrategy.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToe/App.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="4" />
     <option name="y" value="23" />
     <option name="width" value="887" />
     <option name="height" value="733" />
@@ -269,8 +262,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -312,12 +303,21 @@
             </path>
             <path>
               <item name="scalerBackendLLDAprJun23" type="b2602c69:ProjectViewProjectNode" />
+              <item name="scalerBackendLLDAprJun23" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="TicTacToe" type="462c0819:PsiDirectoryNode" />
+              <item name="Validations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scalerBackendLLDAprJun23" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -475,29 +475,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="887" height="733" extended-state="0" />
-    <editor active="true" />
+    <frame x="4" y="23" width="887" height="733" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24378698" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28639054" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Thumbnails" weight="0.32917318" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32917318" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39625585" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.5351014" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Sequence Diagram" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3198128" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.324493" />
+      <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.32917318" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32917318" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.39625585" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.5351014" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Sequence Diagram" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3198128" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.324493" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -508,7 +507,7 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24093567" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1408284" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -525,9 +524,9 @@
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Sequence Diagram" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.046801873" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3198128" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.324493" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.324493" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -615,7 +614,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/TicTacToe/Models/Game.java</url>
-          <line>67</line>
+          <line>68</line>
           <properties class="TicTacToe.Models.Game" method="getBuilder">
             <option name="EMULATED" value="true" />
           </properties>
@@ -659,21 +658,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DesignPatterns/PrototypeAndRegistry/IntelligentStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="35" />
-          <folding>
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#679#680#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#737#738#0" expanded="true" />
-            <element signature="e#765#766#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/DesignPatterns/Decorator/MenuItem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
@@ -882,33 +866,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Models/GameStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Strategy/WinningStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Strategy/BotPlayingStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Models/GameStatus.java" />
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Strategy/WinningStrategy.java" />
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Strategy/BotPlayingStrategy.java" />
     <entry file="file://$PROJECT_DIR$/src/TicTacToe/Models/PlayerType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -940,13 +900,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Models/EasyPlayingStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Models/EasyPlayingStrategy.java" />
     <entry file="file://$PROJECT_DIR$/src/TicTacToe/Models/GameState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -1002,76 +956,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Validations/GameValidations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="17" column="5" selection-start-line="12" selection-start-column="3" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Strategies/RowWinningStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TicTacToe/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Models/Move.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Controllers/GameController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-28">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#912#913#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#959#960#0" expanded="true" />
-            <element signature="e#992#993#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Models/Board.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-            <element signature="e#892#893#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TicTacToe/Models/Cell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="42" column="16" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+        <state relative-caret-position="55">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="18" />
           <folding>
             <element signature="e#532#533#0" expanded="true" />
             <element signature="e#558#559#0" expanded="true" />
@@ -1089,43 +977,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Models/Game.java">
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Models/Board.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="53" column="40" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="53" selection-end-column="40" />
+        <state relative-caret-position="-260">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#977#978#0" expanded="true" />
-            <element signature="e#1005#1006#0" expanded="true" />
-            <element signature="class#Builder#0;class#Game#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Strategies/BotPlayingStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Strategies/EasyPlayingStrategy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#790#791#0" expanded="true" />
+            <element signature="e#822#823#0" expanded="true" />
+            <element signature="e#864#865#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TicTacToe/Models/Player.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="146">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="33" />
           <folding>
             <element signature="e#479#480#0" expanded="true" />
             <element signature="e#506#507#0" expanded="true" />
@@ -1139,24 +1008,121 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Models/BotPlayer.java">
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Validations/GameValidations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="35" />
+        <state relative-caret-position="58">
+          <caret line="17" column="5" selection-start-line="12" selection-start-column="3" selection-end-line="17" selection-end-column="5" />
           <folding>
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#374#375#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TicTacToe/Models/HumanPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        <state relative-caret-position="228">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
           <folding>
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#148#149#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Models/Move.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="e#264#265#0" expanded="true" />
+            <element signature="e#293#294#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Validations/CellValidation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Models/BotPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Controllers/GameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="25" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+            <element signature="e#943#944#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Models/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="66" column="34" selection-start-line="66" selection-start-column="34" selection-end-line="66" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#974#975#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1917#1918#0" expanded="true" />
+            <element signature="e#1956#1957#0" expanded="true" />
+            <element signature="e#1988#1989#0" expanded="true" />
+            <element signature="e#2021#2022#0" expanded="true" />
+            <element signature="e#2050#2051#0" expanded="true" />
+            <element signature="class#Builder#0;class#Game#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Strategies/EasyPlayingStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Strategies/BotPlayingStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/Strategies/RowWinningStrategy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

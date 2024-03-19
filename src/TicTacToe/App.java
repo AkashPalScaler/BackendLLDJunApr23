@@ -18,18 +18,28 @@ public class App {
 
         Player playerA = new HumanPlayer("Akash", 1, 'X', PlayerType.HUMAN);
         Player playerB = new BotPlayer("ChatGPT", 2, 'O', PlayerType.BOT, BotDifficultyLevel.EASY);
-        Player playerC = new HumanPlayer("Bard", 3, 'X', PlayerType.HUMAN);
         List<Player> players = new ArrayList<>();
         players.add(playerA);
         players.add(playerB);
-        players.add(playerC);
 
         WinningStrategy rowWinning = new RowWinningStrategy();
         List<WinningStrategy> strategies = new ArrayList<>();
         strategies.add(rowWinning);
 
-        Game game = gameController.startGame(4, players, strategies);
+        Game game = gameController.startGame(3, players, strategies);
 
-        game.printBoard();
+        while(game.getGameState().equals(GameState.IN_PROGRESS)){
+            game.printBoard();
+
+            game.makeMove();
+        }
+        game.makeMove();
+        if(game.getGameState().equals(GameState.CONCLUDED)){
+            System.out.println(game.getWinner() + " have won");
+        }
+
+        if(game.getGameState().equals(GameState.DRAW)){
+            System.out.println("It's a draw");
+        }
     }
 }

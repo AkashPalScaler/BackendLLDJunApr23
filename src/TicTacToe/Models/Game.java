@@ -54,6 +54,30 @@ public class Game {
         nextPlayerIndex %= players.size();
     }
 
+    public void undo(){
+        if(this.moves.size() <= 0){
+            System.out.println("No valid moves to undo");
+            return;
+        }
+
+        Move lastMove = this.moves.get(this.moves.size()-1);
+        this.moves.remove(lastMove);
+
+        Cell cell = lastMove.getCell();
+        cell.setPlayer(null);
+        cell.setCellState(CellState.EMPTY);
+
+        for(WinningStrategy ws: this.winningStrategyList){
+            ws.handleUndo(board, lastMove);
+        }
+
+        if(nextPlayerIndex > 0){
+            nextPlayerIndex--;
+        }else{
+            nextPlayerIndex = players.size()-1;
+        }
+
+    }
     private boolean checkWinner(Board board, Move move){
         for(WinningStrategy ws: this.winningStrategyList){
             if(ws.checkWin(board, move)){
